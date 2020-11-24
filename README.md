@@ -10,20 +10,24 @@
 
 
 ## S01E01 - Negociações
-- Instalar o Java
-    - Configurar algum ambiente de desenvolvimento
-    - Eclipse, VSCode, Netbeans ou Intellij
-- Instalar o git
-    - Git for Windows, Git Desktop
-    - Git no linux
-- Instalar o VSCODE
-    - Instalar o Live Share como plugin do VSCODE
-- Baixar a apostila da Caelum de Java
-    - Ler os capítulos 1, 2 e 3.
+- Lecture [01 Ponto Extra]
+    - [ ] Leia a apostila da Caelum. Capítulo 1, 2 e 3.
+    - [ ] Assista o primeiro vídeo da Playlist Gafanhoto
+    - [ ] Rode o seu primeiro Hello World
+
+- Homework
+    - [ ] Configurar algum ambiente de desenvolvimento java : Eclipse, VSCode, Netbeans ou Intellij
+    - [ ] Instalar o git
+        - Git for Windows, Git Desktop
+        - Git no linux
+    - [ ] Instalar o VSCODE
+        - Instalar o Live Share como plugin do VSCODE
 
 ## S01E02
-- Colocar seu email e repositório git na Planilha de Notas.
-- Entrar no Discord e mudar seu nickname para seu nome.
-- Seguir o tutorial do git na pasta S01E01 e criar seu repositório.
-- [ ] No seu repositório crie a pasta **01 - Inicio**
-    - Seguindo a apostila da Caelum, testar a instalação do java e enviar algum código java para essa pasta.
+- Homework [03 Pontos]
+    - [ ] Colocar seu email e repositório git na Planilha de Notas.
+    - [ ] Entrar no Discord e mudar seu nickname para seu nome.
+    - [ ] Seguir o tutorial do git na pasta S01E01 e criar seu repositório.
+    - [ ] No seu repositório crie a pasta **Projeto 01 Inicio**
+    - [ ] Seguindo a apostila da Caelum, testar a instalação do java e enviar algum código java para essa pasta.
+
