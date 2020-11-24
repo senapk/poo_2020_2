@@ -10,7 +10,7 @@
 - Clonar um repositório externo
     - `git clone url`
 - Sempre que o professor fizer uma alteração no repositório externo, você pode atualizar a sua pasta do repositório local entrando na pasta e digitando:
-    - `git pull origin master`
+    - `git pull origin main`
 
 ## Fluxo de trabalho
 
