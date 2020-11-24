@@ -5,10 +5,25 @@
 - [Grupo do Discord](discord.gg/Ct67jn2EX7)
 - [Pasta com as aulas gravadas](https://drive.google.com/drive/folders/1tKLx3fg9loIZq3-4fbHbTrpUsQ2Xcnp_?usp=sharing)
 
-## S01E01
+- [Apostila Caelum](https://www.caelum.com.br/apostila-java-orientacao-objetos/)
+- [ Playlist Java Gafanhoto](https://www.youtube.com/playlist?list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
+
+
+## S01E01 - Negociações
 - Instalar o Java
-- Instalar o git for Windows
+    - Configurar algum ambiente de desenvolvimento
+    - Eclipse, VSCode, Netbeans ou Intellij
+- Instalar o git
+    - Git for Windows, Git Desktop
+    - Git no linux
 - Instalar o VSCODE
     - Instalar o Live Share como plugin do VSCODE
 - Baixar a apostila da Caelum de Java
-    - Ler os capítulos 1 e 2
+    - Ler os capítulos 1, 2 e 3.
+
+## S01E02
+- Colocar seu email e repositório git na Planilha de Notas.
+- Entrar no Discord e mudar seu nickname para seu nome.
+- Seguir o tutorial do git na pasta S01E01 e criar seu repositório.
+- [ ] No seu repositório crie a pasta **01 - Inicio**
+    - Seguindo a apostila da Caelum, testar a instalação do java e enviar algum código java para essa pasta.
