@@ -1,5 +1,13 @@
 # Repositório da Disciplina de POO 2020.2
 
+## Índice []()
+<!--TOC_BEGIN-->
+- [Links](#links)
+- [S01E01 - Negociações](#s01e01---negociações)
+- [S01E02 - Git](#s01e02---git)
+
+<!--TOC_END-->
+
 ## Links
 - [Planilha de notas](https://docs.google.com/spreadsheets/d/1zGr9wJ0VifwyXHBXBtogrm6DLyuSKPyva8H2gFGv5Tk/edit?usp=sharing)
 - [Grupo do Discord](discord.gg/Ct67jn2EX7)
@@ -17,12 +25,9 @@
 - Homework
     - [ ] Configurar algum ambiente de desenvolvimento java : Eclipse, VSCode, Netbeans ou Intellij
     - [ ] Instalar o git
-        - Git for Windows, Git Desktop
-        - Git no linux
-    - [ ] Instalar o VSCODE
-        - Instalar o Live Share como plugin do VSCODE
+    - [ ] Instalar o VSCODE com o plugin Live Share
 
-## S01E02
+## S01E02 - Git
 - Homework [03 Pontos]
     - [ ] Colocar seu email e repositório git na Planilha de Notas.
     - [ ] Entrar no Discord e mudar seu nickname para seu nome.
