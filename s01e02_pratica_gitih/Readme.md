@@ -58,12 +58,12 @@ Se estiver utilizando a máquina do laboratório, lembre de configurar pelo meno
 - Para visualizar seus "saves" no repositório local use
     - `git log`
 - Se você já vinculou os repositórios, pode enviar seus commits para o repositório remoto utilizando
-    - `git push origin master`
+    - `git push origin main`
 
 
 ## Conflitos
 - Se estiver trabalhando com várias máquinas, ao acessar uma máquina e tentar dar o commit, o git vai avisar que já existem atualizações remotas. Lembre de sempre dar o `git pull origin master` antes de trabalhar numa nova pasta.
-- Se existem conflitos e você quer sobrescrever o repositório remoto com o que existe no repositório local você pode fazer um `git push origin master --force`.
+- Se existem conflitos e você quer sobrescrever o repositório remoto com o que existe no repositório local você pode fazer um `git push origin main --force`.
 
 ## Ignorando arquivos
 - Crie um arquivo `.gitignore` no root no repositório e adicione quais tipos de arquivos você não quer que sejam rastreados pelo git.
@@ -80,8 +80,8 @@ Se estiver utilizando a máquina do laboratório, lembre de configurar pelo meno
 - `git clone url`: copia o repositório remoto para pasta local
 - `git add path`: marcar os arquivos que serão versionados
 - `git commit -m "msg"`: salva uma versão com todos os arquivos marcados
-- `git push origin master`: envia os commits para o servidor remoto
-- `git pull origin master`: obtém as novidades do repositório remoto para o rep local.
+- `git push origin main`: envia os commits para o servidor remoto
+- `git pull origin main`: obtém as novidades do repositório remoto para o rep local.
 - `git log`: vê o histórico de commits
 
 
