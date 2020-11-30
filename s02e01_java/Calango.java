@@ -5,12 +5,16 @@ public class Calango {
     int bucho; //atributos
     int maxBucho;
     int nPatas;
+    int vida;
+    boolean alive;
 
     //mesmo nome da classe = sombreamento de variavel
-    Calango(int bucho, int maxBucho, int nPatas){ //parametros
-        this.bucho = bucho;
+    Calango(int maxBucho){ //parametros
+        this.bucho = maxBucho;
         this.maxBucho = maxBucho;
-        this.nPatas = nPatas;
+        this.nPatas = 4;
+        this.vida = 4;
+        this.alive = true;
     }
 
     void comer(int qtd){
@@ -59,12 +63,13 @@ public class Calango {
     }
 
     public String toString() {
-        return "Bucho: " + bucho + "/" + maxBucho + " Patas: " + nPatas;
+        return "Bucho: " + bucho + "/" + maxBucho + " Patas: " + nPatas  + " Alive:" + alive;
     }
 
     public static void main(String[] args) {
         //referencia      = criando objeto
-        Calango deadlango = new Calango(0, 20, 4);
+        Calango deadlango = new Calango(20);
+
         System.out.println(deadlango);
 
         

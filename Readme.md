@@ -35,3 +35,23 @@
     - [ ] No seu repositório crie a pasta **Projeto 01 Inicio**
     - [ ] Seguindo a apostila da Caelum, testar a instalação do java e enviar algum código java para essa pasta.
 
+
+## S02E01 - Java Inicio
+- [ ] Estudar e melhorar o código do Calango.
+    - Crie mais uma variáveil tente modificar os métodos
+    - Você pode colocar seus códigos na pasta **Projeto 02 Java**
+
+## S02E01 - Java Exercício
+- [ ] Aprender a fazer código interativo.
+- Homework
+    - Opção 1: Fazer o projeto do [Carro](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md).
+    - Opção 2: Iniciar um projeto do zero à sua escolha. Seu projeto deve ter no mínimo:
+        - Uma classe
+        - Construtor
+        - 3 atributos
+        - 4 métodos
+        - Main
+    - Opção 3: Continuar melhorando seu projeto do Calango adicionando novos comportamentos e atributos. 
+- [ ] Colocar seus códigos na pasta **Projeto 02 Java**.
+- [ ] Fazer um relatório dos seus estudos da semana nessa pasta.
+
