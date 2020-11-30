@@ -69,7 +69,7 @@ public class Calango {
 
         
         for(int i = 0; i < 25; i++)
-            deadlango.comer();
+            deadlango.comer(1);
         System.out.println(deadlango);
         
         deadlango.acidentar();
