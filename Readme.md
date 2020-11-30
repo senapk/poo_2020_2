@@ -37,12 +37,19 @@
 
 
 ## S02E01 - Java Inicio
-- [ ] Estudar e melhorar o código do Calango.
-    - Crie mais uma variáveil tente modificar os métodos
-    - Você pode colocar seus códigos na pasta **Projeto 02 Java**
+- Classwork
+    - Entender a estrutura básica do código java
+    - Construtores, atributos, métodos, main
+- Homework
+    - [ ] Estudar e melhorar o código do Calango.
+    - Crie mais uma variável e tente modificar os métodos
+    - Você pode colocar seus códigos na pasta **Projeto 02 Java** do seu git
 
 ## S02E01 - Java Exercício
-- [ ] Aprender a fazer código interativo.
+- Lecture
+    - Ler o capítulo 4 da apostila da Caelum.
+- Classwork
+    - [ ] Aprender a fazer código interativo e treinar
 - Homework
     - Opção 1: Fazer o projeto do [Carro](https://github.com/qxcodepoo/arcade/blob/master/base/002/Readme.md).
     - Opção 2: Iniciar um projeto do zero à sua escolha. Seu projeto deve ter no mínimo:
@@ -53,5 +60,5 @@
         - Main
     - Opção 3: Continuar melhorando seu projeto do Calango adicionando novos comportamentos e atributos. 
 - [ ] Colocar seus códigos na pasta **Projeto 02 Java**.
-- [ ] Fazer um relatório dos seus estudos da semana nessa pasta.
+- [ ] Fazer um relatório dos seus estudos da semana no arquivo Readme.md dessa pasta.
 
