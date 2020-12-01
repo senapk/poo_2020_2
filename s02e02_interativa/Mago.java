@@ -8,7 +8,7 @@ public class Mago{
         return "Nome: " + this.name;
     }
     public static void main(String[] args) {
-        Mago mago = new Mago("Jonh Doe");
+        Mago mago = new Mago("Patolino");
         Scanner scanner = new Scanner(System.in);
         while(true){
             String line = scanner.nextLine();
