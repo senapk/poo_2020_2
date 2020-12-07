@@ -1,29 +1,72 @@
 import java.util.Scanner;
 
+
+class Inseto {
+    int tamanho;
+    int energia;
+    Inseto(int tamanho, int energia){
+        this.tamanho = tamanho;
+        this.energia = energia;
+    }
+    public String toString() {
+        return "T:" + tamanho + " E:" + energia;        
+    }
+}
+
 class Calango {
-    int bucho; //atributos
-    int maxBucho;
+    Inseto barriga;
+    int energia; //atributos
+    int maxEnergia;
     int nPatas;
     int vida;
     boolean alive;
 
     //mesmo nome da classe = sombreamento de variavel
-    Calango(int maxBucho){ //parametros
-        this.bucho = maxBucho;
-        this.maxBucho = maxBucho;
+    Calango(int maxEnergia){ //parametros
+        this.energia = maxEnergia;
+        this.maxEnergia = maxEnergia;
         this.nPatas = 4;
         this.vida = 4;
         this.alive = true;
+        this.barriga = null; //nada
     }
 
-    void comer(int qtd){
-        bucho += qtd;
-        if(bucho > maxBucho){
-            bucho = maxBucho;
-            System.out.println("Comi até ficar saciado");
-        }else{
-            System.out.println("Tô cheio");
+    boolean comer(Inseto mosquito){
+        if(this.barriga != null){
+            System.out.println("Barriga esta cheia");
+            return false;
         }
+        if(mosquito.tamanho > 3){
+            System.out.println("Inseto muito grande");
+            return false;
+        }
+        barriga = mosquito;
+        return true;
+    }
+
+    Inseto vomitar(){
+        if(barriga == null){
+            System.out.println("Barriga vazia, nao tem o que por pra fora");
+            return null;
+        }
+        Inseto aux = barriga;
+        barriga = null;
+        return aux;
+    }
+
+    void digerir(){
+        if(barriga == null){
+            System.out.println("nao tem o que digerir");
+            return;
+        }
+        this.energia += barriga.energia;
+        if(energia > maxEnergia){
+            energia = maxEnergia;
+            System.out.println("Nhame Nhame, estou cheio ate a tampa");
+        }else{
+            System.out.println("Nhame Nhame");
+        }
+        barriga = null;
     }
 
     void andar(int dist){
@@ -31,13 +74,13 @@ class Calango {
             System.out.println("Estou impossibilitado de tal tarefa");
             return;
         }
-        if(bucho > 0){
-            if(bucho < dist){
-                System.out.println("Andei só " + bucho);
-                bucho = 0;
+        if(energia > 0){
+            if(energia < dist){
+                System.out.println("Andei só " + energia);
+                energia = 0;
                 return;
             }
-            bucho -= dist;
+            energia -= dist;
             System.out.println("Que passeio agradavel");
             return;
         }
@@ -45,21 +88,26 @@ class Calango {
         
     }
 
-    void acidentar(){
-        if(nPatas > 0){
-            nPatas -= 1;
-            System.out.println("Ouch! Perdi uma pata");
+    void brigar(Calango other){
+        if(!this.alive){
+            System.out.println("Morto nao luta");
+            return;
+        }
+        if(other.nPatas > 0){
+            other.nPatas -= 1;
+            System.out.println("Arranquei uma pata sua com meu Ninjutso");
         }else{
-            System.out.println("Já virei cobra!!");
+            System.out.println("Morra com meu golpe do dedo das 4 folhas!!");
+            other.alive = false;
         }
     }
 
     void regenerar(){
         if(nPatas == 4){
             System.out.println("Estou perfeito");
-        }else if (bucho > 0){
+        }else if (energia > 0){
             nPatas += 1;
-            bucho -= 1;
+            energia -= 1;
             System.out.println("Opa! Recuperei uma pata!");
         }else{
             System.out.println("Nao tenho energia suficiente para me recuperar");
@@ -67,80 +115,32 @@ class Calango {
     }
 
     public String toString() {
-        return "Bucho: " + bucho + "/" + maxBucho + " Patas: " + nPatas  + " Alive:" + alive;
-    }
-
-    public static void main(String[] args) {
-        //referencia      = criando objeto
-        Calango deadlango = new Calango(20);
-
-        System.out.println(deadlango);
-
-        
-        for(int i = 0; i < 25; i++)
-            deadlango.comer(1);
-        System.out.println(deadlango);
-        
-        deadlango.acidentar();
-        deadlango.acidentar();
-        deadlango.acidentar();
-        System.out.println(deadlango);
-
-        for(int i = 0; i < 25; i++)
-            deadlango.andar(1);
-        System.out.println(deadlango);
-        deadlango.regenerar();
-        deadlango.regenerar();
-        deadlango.regenerar();
-        deadlango.regenerar();
-        deadlango.regenerar();
-        System.out.println(deadlango);
-        // deadlango.acidentar();
-        // deadlango.regenerar();
-        // deadlango.bucho = 0;
-        // deadlango.maxBucho = 20;
-        // deadlango.nPatas = 4;
-
-
-        // deadlango.comer();
-        // deadlango.andar();
-        // deadlango.acidentar();
-        // deadlango.regenerar();
-
-
-        // deadlango.comer();
-
-        // deadlango.comer();
-        // deadlango.andar();
-        // deadlango.acidentar();
-        // deadlango.regenerar();
+        String saida =  "energia: " + energia + "/" + maxEnergia + " Patas: " + nPatas  + " Alive:" + alive;
+        saida += " Barriga: " + barriga;
+        return saida;
     }
 }
 
 
 public class Interativo {
     public static void main(String[] args) {
-        Calango calango = new Calango(10);
-        Scanner scanner = new Scanner(System.in);
-        while(true){
-            String line = scanner.nextLine();
-            String[] ui = line.split(" ");
-            if(line.equals("end")){
-                break;
-            }else if(line.equals("show")){
-                System.out.println(calango);
-            }else if(ui[0].equals("andar")){//andar _dist
-                calango.andar(Integer.parseInt(ui[1]));
-            }else if(line.equals("regenerar")){
-                calango.regenerar();
-            }else if(ui[0].equals("comer")){//comer _qtd
-                calango.comer(Integer.parseInt(ui[1]));
-            }else if(line.equals("brigar")){
-                calango.acidentar();
-            }else{
-                System.out.println("fail: comando invalido");
-            }
-        }
-        scanner.close();
+        Calango dead = new Calango(100);
+        dead.andar(50);
+        System.out.println(dead);
+        Inseto muri = new Inseto(1, 1);
+        dead.comer(muri);
+        System.out.println(dead);
+        dead.digerir();
+        System.out.println(dead);
+        Inseto barataVoadora = new Inseto(5, 20);
+        dead.comer(barataVoadora);
+        Inseto meiaBarataVoadora = new Inseto(2, 20);
+        dead.comer(meiaBarataVoadora);
+        System.out.println(dead);
+        Inseto fugiu = dead.vomitar();
+        System.out.println(fugiu);
+        dead.comer(fugiu);
+        dead.digerir();
+        System.out.println(dead);
     }
 }
