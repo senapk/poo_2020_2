@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 class Inseto {
     int tamanho;
     int energia;
@@ -122,7 +121,7 @@ class Calango {
 }
 
 
-public class Interativo {
+public class Aula {
     public static void main(String[] args) {
         Calango dead = new Calango(100);
         dead.andar(50);

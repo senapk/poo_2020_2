@@ -46,7 +46,7 @@ class Pokemon{
     }
 }
 
-public class Exemplo{
+public class Buba{
     public static void main(String[] args) {
         Pokemon buba = new Pokemon(30);
         while(buba.isAlive()){

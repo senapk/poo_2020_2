@@ -140,5 +140,9 @@ public class Riquinho{
         System.out.println(porco);
         porco.adicionarItem(new Item("bacon", 6));
         System.out.println(porco);
+
+        porco.quebrar();
+        porco.pegarCoisas();
+        porco.pegarDinheiro();
     }
 }

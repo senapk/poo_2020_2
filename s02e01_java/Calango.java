@@ -1,6 +1,4 @@
 
-
-
 public class Calango {
     int bucho; //atributos
     int maxBucho;
@@ -91,32 +89,6 @@ public class Calango {
         deadlango.regenerar();
         deadlango.regenerar();
         System.out.println(deadlango);
-        // deadlango.acidentar();
-        // deadlango.regenerar();
-        // deadlango.bucho = 0;
-        // deadlango.maxBucho = 20;
-        // deadlango.nPatas = 4;
-
-
-        // deadlango.comer();
-        // deadlango.andar();
-        // deadlango.acidentar();
-        // deadlango.regenerar();
-
-
-        // deadlango.comer();
-
-        // deadlango.comer();
-        // deadlango.andar();
-        // deadlango.acidentar();
-        // deadlango.regenerar();
-
     }
 }
-
-
-        // deadlango.comer();
-        // deadlango.andar();
-        // deadlango.acidentar();
-        // deadlango.regenerar();
 
