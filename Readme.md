@@ -84,8 +84,8 @@
 - Treinar a lógica na interação entre classes.
 
 ## S04E01 - Modificadores de Acesso
-- Projeto: Tamagochi
+- Projeto: [Tamagochi](https://github.com/qxcodepoo/arcade/blob/master/base/006/Readme.md)
 
 
 ## S04E02 - ArrayList
-- Projeto: Pula Pula no Parquinho
+- Projeto: [Pula Pula no Parquinho](https://github.com/qxcodepoo/arcade/blob/master/base/009/Readme.md)
