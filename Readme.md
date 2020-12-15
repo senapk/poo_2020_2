@@ -130,6 +130,7 @@
     - Construir o modelo do Pokemon [LINK](s04e01_encapsulamento/Buba.java)
 - Home
     - [ ] Fazer o projeto do Tamagotchi [LINK](https://github.com/qxcodepoo/arcade/blob/master/base/006/Readme.md#shell)
+    - Colocar na pasta **Projeto 04 Tamagotchi**
 
 ## S04E02 - ArrayList - Tripas
 - Read
@@ -140,24 +141,25 @@
     - Aprender como funcionam os Arrays e os Arraylists em Java
     - Aprender as operações básicas de inserir, percorrer, listar, remover no Arrayslist
     - Ver como podemos utilizar ArrayLists para armazenar objetos e manipular objetos
-- Home
-    - Fazer projeto sobre Vetores: Sugestão `@014 Contato` ou `@009 Pula Pula`.
-        - Mínimo de 2 classes, construtores, toStrings.
-        - Manipulação de objetos no vetor: inserção, remoção, busca.
-        - Deve existir uma relação de Agregação (uma classe conter a outra) e manipulação do objeto.
-    - [ ] Colocar seus códigos na pasta **Projeto 04 ArrayList**.
-    - [ ] Fazer o relatório
+- Home (EXTRA)
+    - Fazer projeto sobre Vetores: Sugestão `@014 Contato`
+        - Colocar na pasta **Projeto 05 Contato** e fazer o relatório
 
 ## S05E01 - Lógica
 - Goal
     - Treinar lógica de programação com o Projeto @007 Tarifas.
 - Home
-    - `@011 JunkFood` 
+    - Fazer projeto sobre Vetores: `@009 Pula Pula` ou equivalente.
+        - Mínimo de 2 classes, construtores, toStrings.
+        - Manipulação de objetos no vetor: inserção, remoção, busca.
+        - Deve existir uma relação de Agregação (uma classe conter a outra) e manipulação do objeto.
+    - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
 ## S05E02 - Null
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
 - Home
+    - `@011 JunkFood`
     - `@012 Topic` 
 
 ## S06E01 - Revisão
