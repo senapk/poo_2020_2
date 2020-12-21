@@ -12,7 +12,8 @@
 - [S03E02 - Cofre](#s03e02---cofre)
 - [S04E01 - Encapsulamento - Tamagotchi](#s04e01---encapsulamento---tamagotchi)
 - [S04E02 - ArrayList - Tripas](#s04e02---arraylist---tripas)
-- [S05E01 - Lógica](#s05e01---lógica)
+- [S05E01 - ArrayList II](#s05e01---arraylist-ii)
+- [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
 - [S05E02 - Null](#s05e02---null)
 - [S06E01 - Revisão](#s06e01---revisão)
 - [S06E02 - Sort](#s06e02---sort)
@@ -145,11 +146,15 @@
     - Fazer projeto sobre Vetores: Sugestão `@014 Contato`
         - Colocar na pasta **Projeto 05 Contato** e fazer o relatório
 
-## S05E01 - Lógica
+## S05E01 - ArrayList II
 - Goal
-    - Treinar lógica de programação com o Projeto @007 Tarifas.
+    - Treinar manipulação de objetos em Listas com o `@014 Contato`
+
+## S05E02 - Manipular elementos entre lista
+- Goal
+    - Treinar lógica de programação com o Projeto @009 Pula Pula.
 - Home
-    - Fazer projeto sobre Vetores: `@009 Pula Pula` ou equivalente.
+    - Sugestão `Projeto Tarifas`.
         - Mínimo de 2 classes, construtores, toStrings.
         - Manipulação de objetos no vetor: inserção, remoção, busca.
         - Deve existir uma relação de Agregação (uma classe conter a outra) e manipulação do objeto.
