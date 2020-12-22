@@ -63,8 +63,9 @@ class Contato{
         }
         for(Fone fone : fones){
             if(fone.number.equals(number)){
+                Crianca sair = fone;
                 fones.remove(fone);
-                return true;//apos remove
+                return sair;//apos remove
             }
         }
         return false;

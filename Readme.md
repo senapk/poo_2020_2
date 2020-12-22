@@ -14,15 +14,6 @@
 - [S04E02 - ArrayList - Tripas](#s04e02---arraylist---tripas)
 - [S05E01 - ArrayList II](#s05e01---arraylist-ii)
 - [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
-- [S05E02 - Null](#s05e02---null)
-- [S06E01 - Revisão](#s06e01---revisão)
-- [S06E02 - Sort](#s06e02---sort)
-- [S07E01 - Maps](#s07e01---maps)
-- [S07E02 - Integridade](#s07e02---integridade)
-- [S08 - Excessões](#s08---excessões)
-- [S09 - Herança](#s09---herança)
-- [S10 - Herança II](#s10---herança-ii)
-- [S11 - NxN](#s11---nxn)
 
 <!--TOC_END-->
 
@@ -154,43 +145,47 @@
 - Goal
     - Treinar lógica de programação com o Projeto @009 Pula Pula.
 - Home
-    - Sugestão `Projeto Tarifas`.
+    - Sugestão `Projeto Tarifas` ou `Projeto JunkFood`.
         - Mínimo de 2 classes, construtores, toStrings.
         - Manipulação de objetos no vetor: inserção, remoção, busca.
-        - Deve existir uma relação de Agregação (uma classe conter a outra) e manipulação do objeto.
+        - Deve existir uma relação de Agregação ou Composição(uma classe conter pelo menos um Array da outra).
     - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
-## S05E02 - Null
+<!--
+
+## S06E01 - Null []()
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
 - Home
     - `@011 JunkFood`
     - `@012 Topic` 
 
-## S06E01 - Revisão
+## S06E01 - Revisão []()
 - Goal
     - Revisão recriando o projeto Junkfood e Topic
 
-## S06E02 - Sort
+## S06E02 - Sort []()
 - Goal
     - Ordenação, Equals, Comparable, Comparator e Sort.
 - Home
     - `@015 Busca` ou `@024 Mensagens`
 
-## S07E01 - Maps
+## S07E01 - Maps []()
 - Goal
     - Aprender como utilizar estruturas chave valor como Maps.
 
-## S07E02 - Integridade
+## S07E02 - Integridade []()
 - Goal
     - Entender a importância e o problema das redundâncias na integridade.
     - Projeto `@016 Favoritos`
 
-## S08 - Excessões
+## S08 - Excessões []()
 - Goal
 
-## S09 - Herança
+## S09 - Herança []()
 
-## S10 - Herança II
+## S10 - Herança II []()
 
-## S11 - NxN
+## S11 - NxN  []()
+
+-->
