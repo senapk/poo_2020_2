@@ -14,6 +14,8 @@
 - [S04E02 - ArrayList - Tripas](#s04e02---arraylist---tripas)
 - [S05E01 - ArrayList II](#s05e01---arraylist-ii)
 - [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
+- [S06E01 - Vetores de Null](#s06e01---vetores-de-null)
+- [S07E01 - Sort](#s07e01---sort)
 
 <!--TOC_END-->
 
@@ -151,25 +153,21 @@
         - Deve existir uma relação de Agregação ou Composição(uma classe conter pelo menos um Array da outra).
     - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
-<!--
 
-## S06E01 - Null []()
+## S06E01 - Vetores de Null
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
 - Home
-    - `@011 JunkFood`
     - `@012 Topic` 
 
-## S06E01 - Revisão []()
-- Goal
-    - Revisão recriando o projeto Junkfood e Topic
 
-## S06E02 - Sort []()
+## S07E01 - Sort
 - Goal
     - Ordenação, Equals, Comparable, Comparator e Sort.
 - Home
     - `@015 Busca` ou `@024 Mensagens`
 
+<!--
 ## S07E01 - Maps []()
 - Goal
     - Aprender como utilizar estruturas chave valor como Maps.
