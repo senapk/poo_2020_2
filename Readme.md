@@ -153,17 +153,23 @@
         - Deve existir uma relação de Agregação ou Composição(uma classe conter pelo menos um Array da outra).
     - [ ] Colocar seus códigos na pasta **Projeto 06 ArrayList** e fazer o relatório
 
-
 ## S06E01 - Vetores de Null
 - Goal
     - Entender melhor Vetores e Null com o Projeto `@010 Sala de Cinema`.
+
+## S06E02 - Vetores de Null
+- Goal
+    - Continuação do projeto Cinema
 - Home
     - `@012 Topic` 
-
 
 ## S07E01 - Sort
 - Goal
     - Ordenação, Equals, Comparable, Comparator e Sort.
+    - Comparação usando dois critérios
+    - indexOf do ArrayList usando o equals(Object) na classe Pessoa
+        - instanceOf e cast
+    - indexOf do ArrayList utilizando uma classe Chave
 - Home
     - `@015 Busca` ou `@024 Mensagens`
 
