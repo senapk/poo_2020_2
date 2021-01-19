@@ -15,7 +15,9 @@
 - [S05E01 - ArrayList II](#s05e01---arraylist-ii)
 - [S05E02 - Manipular elementos entre lista](#s05e02---manipular-elementos-entre-lista)
 - [S06E01 - Vetores de Null](#s06e01---vetores-de-null)
+- [S06E02 - Vetores de Null](#s06e02---vetores-de-null)
 - [S07E01 - Sort](#s07e01---sort)
+- [S07E02 - 3 camadas](#s07e02---3-camadas)
 
 <!--TOC_END-->
 
