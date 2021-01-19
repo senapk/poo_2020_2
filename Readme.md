@@ -166,12 +166,25 @@
 ## S07E01 - Sort
 - Goal
     - Ordenação, Equals, Comparable, Comparator e Sort.
-    - Comparação usando dois critérios
-    - indexOf do ArrayList usando o equals(Object) na classe Pessoa
-        - instanceOf e cast
-    - indexOf do ArrayList utilizando uma classe Chave
+    - Ordenação usando dois critérios
+    - Entendendo interfaces
+
+
+## S07E02 - 3 camadas
+- Goal
+    - `@024 - Mensagens`
+    - Aprender um modelo simplificado de troca de mensagens
+    - Compartilhando objetos entre ArrayLists
+    - Usando id único
+    - Usando contador de não lidos
+    - Trocando mensagem diretamente entre objetos usuários
+    - Implementando um sistema de gestão de usuários
+    - Dividindo as responsabilidades: Sistema, Usuario, Msg
+    - Colocando o sistema para gerenciar os ids da msgs
 - Home
-    - `@015 Busca` ou `@024 Mensagens`
+    - `@015-Busca`
+
+
 
 <!--
 ## S07E01 - Maps []()
