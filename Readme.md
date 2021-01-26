@@ -18,6 +18,8 @@
 - [S06E02 - Vetores de Null](#s06e02---vetores-de-null)
 - [S07E01 - Sort](#s07e01---sort)
 - [S07E02 - 3 camadas](#s07e02---3-camadas)
+- [S08E01 - Mapas](#s08e01---mapas)
+- [S08E02 - Agiota](#s08e02---agiota)
 
 <!--TOC_END-->
 
@@ -190,6 +192,12 @@
 - Goal
     - Entender como funcionam as estruturas lineares como Lista e as estruturas não lineares como Set e Map.
     - Ver os métodos de funcionamento do TreeMap para inserir, buscar, remover, percorrer.
+
+## S08E02 - Agiota
+- Goal
+    - Entender como funcionam os mapas na prática.
+- Home
+    - `@016 Favoritos`
 <!--
 ## S07E01 - Maps []()
 - Goal
