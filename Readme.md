@@ -20,6 +20,8 @@
 - [S07E02 - 3 camadas](#s07e02---3-camadas)
 - [S08E01 - Mapas](#s08e01---mapas)
 - [S08E02 - Agiota](#s08e02---agiota)
+- [S09E01 - Excessões](#s09e01---excessões)
+- [S09E02 - Polimorfismo](#s09e02---polimorfismo)
 
 <!--TOC_END-->
 
