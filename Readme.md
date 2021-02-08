@@ -201,7 +201,7 @@
 - Home
     - `@016 Favoritos`
 
-## S09E01 - Excessões
+## S09E01 - Exceções
 - Goal
     - Entender como funcionam excessões e como utilizá-las para gerenciar erros
 
@@ -215,10 +215,15 @@
             - Uso de herança
             - Sobrescrita de método
             - Invocação de construtores em cadeia
+        - Pegar um projeto antigo seu e adaptar para o modelo de excessões
             - Uso de excessões para lançar erros
         - Treine, teste, use sua imaginação para brincar com os conteúdos.
     - Opcional
         - `@028 Bilheteria`
+
+## S10E01 - Diversão
+- Goal
+    - Treinar herança e interface com o projeto da Batalha de Peças de Xadres
 <!--
 ## S07E01 - Maps []()
 - Goal

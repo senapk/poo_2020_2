@@ -77,7 +77,10 @@ class Torre extends Cavalo {
         return "T_" + nome;
     }
     public void receiveDamame(int qtd, Jogador other) {
-        hp -= qtd/2;
+        if(hp < 5)
+            hp -= qtd/5;
+        else
+            hp -= qtd/2;
     }
 }
 
@@ -99,6 +102,14 @@ class Bispo extends Peao {
                 fraco = jog;
         return fraco;
     }
+    public void charge(Jogador other){
+        if(other != null && other.isAlive()){
+            other.receiveDamame(st, this);
+            if(other.getHp() <= 0){
+                this.st += 5;
+            }
+        }
+    }
 }
 
 class Rainha extends Bispo {
@@ -117,52 +128,56 @@ class Rainha extends Bispo {
 }
 
 public class Jogo{
-                    //jogadores vira atributo
-    public void play(List<Jogador> jogadores){
-        //vira atributo
-        Scanner scanner = new Scanner(System.in);
 
-        //mostrar jogadores
-        for(Jogador player : jogadores)
-                System.out.print(player + " ");
-            System.out.println("");
+    List<Jogador> players;
+    Scanner scanner = new Scanner(System.in);
 
-        while(jogadores.size() > 1){
+    public Jogo(){
+        this.players = new ArrayList<>();
+        for(int i = 0; i < 6; i++)
+            players.add(new Peao());
+        players.add(new Cavalo());
+        players.add(new Torre());
+        players.add(new Bispo());
+        players.add(new Rainha());
+        Collections.shuffle(players); //embaralha
+    }
+
+    public void showPlayers(){
+        for(Jogador player : players)
+            System.out.print(player + " ");
+        System.out.println("");
+    }
+    public void roundFight(){
+        for(Jogador player : players){
+            if(!player.isAlive())
+                continue;
+            Jogador target = player.selectTarget(this.players);
+            player.charge(target);
+            System.out.println(player + " --> " + target);
+        }
+    }
+
+    void removeDeadBodies(){
+        List<Jogador> aux = new ArrayList<Jogador>();
+        for(Jogador player : players)
+            if(player.isAlive())
+                aux.add(player);
+        players = aux;
+    }
+
+    public void play(){
+        showPlayers();
+        while(players.size() > 1){
             System.out.print("Pronto para o mói de peia?: (y/n) ");
             scanner.next();
-
-            //lutar
-            for(Jogador player : jogadores){
-                if(!player.isAlive())
-                    continue;
-                Jogador target = player.selectTarget(jogadores);
-                player.charge(target);
-                System.out.println(player + " --> " + target);
-            }
-
-            //mostrar jogadores
-            for(Jogador player : jogadores)
-                System.out.print(player + " ");
-            System.out.println("");
-
-            //remover mortors
-            List<Jogador> aux = new ArrayList<Jogador>();
-            for(Jogador player : jogadores)
-                if(player.isAlive())
-                    aux.add(player);
-            jogadores = aux;
+            roundFight();
+            showPlayers();
+            removeDeadBodies();
         }
-        scanner.close();
     }
     public static void main(String[] args) {
-        ArrayList<Jogador> lista = new ArrayList<>();
-        for(int i = 0; i < 6; i++)
-            lista.add(new Peao());
-        lista.add(new Cavalo());
-        lista.add(new Torre());
-        lista.add(new Bispo());
-        lista.add(new Rainha());
         Jogo jogo = new Jogo();
-        jogo.play(lista);
+        jogo.play();
     }
 }
